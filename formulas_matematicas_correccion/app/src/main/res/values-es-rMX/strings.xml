@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fórmulas matemáticas</string>
+    <string name="btnName">Calcular</string>
+    <string name="seleccionaFormula">Selecciona una fórmula</string>
+    <string name="chicharronera">Ecuación de segundo grado</string>
+    <string name="pitagoras">Pitágoras</string>
+    <string name="gravitacionUniversal">Gravitación universal</string>
+    <string name="respuestaTitulo">Respuesta</string>
+    <string name="errorTitle">Error</string>
+    <string name="advertenciaTitle">Advertencia</string>
+    <string name="msgIndefinido1">El valor de a no debe ser cero.</string>
+    <string name="msgLlenarInputs">Debe llenar todos los campos.</string>
+    <string name="msgIndefinido2">El valor de r no debe ser cero.</string>
+    <string name="msgMasas">El valor de las masas debe ser mayor que cero.</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="msgUsuario">"Ingrese los datos: "</string>
+</resources>
