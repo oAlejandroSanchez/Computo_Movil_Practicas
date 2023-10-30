@@ -13,24 +13,30 @@ Los requerimientos de esta práctica se encuentra en un documento con extensión
 
 ### Fórmulas elegidas
 Las fórmulas que se eligieron fueron: 
- 
+* Ecuación de segundo grado
 ![Ecuación de segundo grado](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/chicharronera.jpg)
 
+* Pitágoras
 ![Pitágoras](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/pitagoras.png)
 
+* Gravitación universal
 ![Gravitación universal](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/gravitacion_universal.jpg)
 
 ### Funcionamiento
+* Logo
 ![Logo](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/imagen1.png)
 
+* SplashScreen
 ![SplashScreen](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/imagen2.png)
 
+* Interfaces de las ecuaciones
 ![Ecuación de segundo grado (Interfaz)](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/imagen3.png)
 
 ![Pitágoras (Interfaz)](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/imagen4.png)
 
 ![Gravitación universal (Interfaz)](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/imagen5.png)
 
+* Ejemplo de tratamiento de errores de usuario
 ![Ejemplo de tratamiento de errores de usuario](https://github.com/oAlejandroSanchez/Computo_Movil_Practicas/blob/Practica_1/images/imagen6.png)
 
 ### Notas adicionales:
