@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    tools:context=".MainActivity">
+
+    <!-- Este es el card view que muestra las opciones de las fórmulas -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewOptions"
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="-100dp"
+        android:focusable="auto"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagenFormula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/selectOptionsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Texto auxiliar"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spinnerOptions"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="bottom"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Icono/Formula de la aplicación -->
+    <LinearLayout
+        android:id="@+id/imagenFormula"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardViewAnswer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewOptions">
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/chicharronera" />
+
+        <ImageView
+            android:id="@+id/imagen2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/pitagoras" />
+
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/gravitacion_universal" />
+
+    </LinearLayout>
+
+    <!-- Respuesta -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewAnswer"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardInputs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenFormula"
+        app:layout_constraintVertical_bias="0.033">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/respuesta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Aquí va la respuesta"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Entrada de los datos -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardInputs"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewAnswer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/msgUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mensaje para el usuario"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/variable1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Variable 1"
+                android:inputType="numberDecimal|numberSigned" />
+
+            <EditText
+                android:id="@+id/variable2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Variable 2"
+                android:inputType="numberDecimal|numberSigned" />
+
+            <EditText
+                android:id="@+id/variable3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Variable 3"
+                android:inputType="numberDecimal|numberSigned" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Este botón realizará los cálculos -->
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Button"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardInputs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

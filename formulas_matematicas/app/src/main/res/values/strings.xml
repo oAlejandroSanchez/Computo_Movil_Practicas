@@ -1,3 +1,5 @@
-<resources>
-    <string name="app_name">formulas_matematicas</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Fórmulas matemáticas</string>
+
+    <string name="bienvenida">Bienvenid@\nAutor: Sánchez Pérez Omar Alejandro</string>
 </resources>
