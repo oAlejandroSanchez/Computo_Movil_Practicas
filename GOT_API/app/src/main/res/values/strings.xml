@@ -1,0 +1,53 @@
+<resources>
+    <!-- Título de la aplicación -->
+    <string name="app_name">Game Of Thrones</string>
+
+    <!-- Autor -->
+    <string name="authorName">Sánchez Pérez Omar Alejandro</string>
+
+    <!-- Login -->
+    <string name="login">Login</string>
+
+    <!-- Email -->
+    <string name="email">Introduce tu usuario</string>
+
+    <!-- Registro -->
+    <string name="registro">Registro</string>
+
+    <!-- Olvidar contraseña -->
+    <string name="forgotPsswd">¿Olvidaste tu contraseña?</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="reset_password">Recupera/Restablece tu contraseña</string>
+    <string name="enterEmailReset">Escribe tu correo electrónico</string>
+    <string name="enviar">Enviar</string>
+    <string name="emailSentSuccess">Se ha restablecido la contraseña</string>
+    <string name="emailSentFailure">No se logró restablecer la contraseña</string>
+    <string name="cancel">Cancelar</string>
+    <string name="pleaseEnterEmail">Ingresa un email válido</string>
+    <string name="emailRequired">Es importante agregar un email válido</string>
+    <string name="passwordLengthRequired">La contraseña es demasiado corta</string>
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="invalidEmail">El email no tiene un formato correcto</string>
+    <string name="error_wrong_password">Contraseña incorrecta</string>
+    <string name="invalidPassword">Contraseña inválida</string>
+    <string name="account_exists">Las credenciales no son válidas</string>
+    <string name="no_network">Sin conexión</string>
+    <string name="authentication_failure">No es posible acceder a la aplicación</string>
+    <string name="autenticacion_exitosa">Bienvenid@ a la aplicación</string>
+    <string name="error_email">Ya existe una cuenta asociada</string>
+    <string name="existingAccount">El usuario ya está asociado a una cuenta</string>
+    <string name="emailAlreadyUsed">La cuenta ya está en uso</string>
+    <string name="error_user_token_expired">Inicie sesión</string>
+    <string name="expired_session">Su sesión ha expirado</string>
+    <string name="error_user_not_found">El usuario no se encuentra</string>
+    <string name="inexistent_user">Registrese a la APP</string>
+    <string name="error_password">Contrase{a vulnerable</string>
+    <string name="invalid_password">Contraseña incorrecta</string>
+    <string name="password_length">Contraseña muy corta</string>
+    <string name="noRed">Revise su conexión</string>
+    <string name="emailEnviado">Correo enviado</string>
+    <string name="emailNoEnviado">Hubo un problema al enviar el correo</string>
+    <string name="usuarioCreado">Su cuenta se ha creado</string>
+    <string name="email_verify">Verifica el usuario</string>
+    <string name="logOut">Salir</string>
+</resources>

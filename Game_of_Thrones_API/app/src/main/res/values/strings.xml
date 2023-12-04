@@ -1,3 +1,23 @@
+<!--
+    Universidad Nacional Autónoma de México
+    Facultad de Ingeniería
+
+    Autor: Sánchez Pérez Omar Alejandro
+    Asignatura: Cómputo Móvil
+    Semestre: 2024-1
+-->
 <resources>
-    <string name="app_name">Game_of_Thrones_API</string>
+    <!-- Título de la aplicación -->
+    <string name="app_name" translatable="false">
+        Game of Thrones
+    </string>
+
+    <!-- Créditos -->
+    <string name="creditos">
+        Creado por Omar Alejandro Sánchez Pérez
+    </string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnSalir">Salir</string>
+    <string name="btnReintentar">Reintentar</string>
+
 </resources>

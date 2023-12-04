@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Game_of_Thrones_API"
+        android:theme="@style/Theme.GOT_API"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity

@@ -1,8 +1,8 @@
-package edu.unam.facultad_de_ingenieria.game_of_thrones_api.Modelo
+package edu.unam.facultad_de_ingenieria.got_api.model
 
 import com.google.gson.annotations.SerializedName
 
-data class GameOfThronesModel(
+data class GOTModel(
     @SerializedName("id")
     var id : String?,
     @SerializedName("firstName")
